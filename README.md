@@ -1,12 +1,22 @@
+## 📘 Repository Context — Read This First
+
+- **Purpose:** PDF/document-generation infrastructure component supporting the broader Nivy AIOS ecosystem.
+- **Main objective:** Provide reliable document-to-PDF conversion capability that can be used by governed AIOS workflows and document/report pipelines.
+- **Main objects:** PDF conversion service, document conversion endpoints, HTML/URL/Markdown/Office input handling and related infrastructure.
+- **Data/source:** Upstream Gotenberg project plus repository-specific deployment/configuration; verify version, security, licensing and runtime compatibility before production use.
+- **Implementation plan:** AIOS integration follows the canonical Nivy Next AIOS plan, tool/connector contracts and verification evidence.
+- **Progress rule:** Upstream feature completeness is not the same as Nivy AIOS integration completion.
+- **How to use this README:** Understand the component → check `WORK-STATUS.md` → inspect local deployment/integration → trace actual AIOS use to canonical evidence.
+
 ## 📌 Nivy AIOS Work Status — Quick Resume
 
 - **Last updated:** 2026-09-16
 - **Role:** PDF/document infrastructure component supporting the broader AIOS ecosystem.
 - **Completed:** Repository-level autonomous execution guidance and persistent cross-session status tracking established.
 - **Exact completion %:** Not inferred from this component's upstream feature set.
-- **Where to start:** `AIOS-WORK-STATUS.md` → then `nivyindia/Nivy-Next-AIOS` canonical plan/tracker.
+- **Where to start:** `WORK-STATUS.md` → then `nivyindia/Nivy-Next-AIOS` canonical plan/tracker.
 
-**Detailed status:** [AIOS-WORK-STATUS.md](AIOS-WORK-STATUS.md)
+**Detailed status:** [WORK-STATUS.md](WORK-STATUS.md)
 
 ---
 
@@ -48,21 +58,21 @@ See the [full documentation](https://gotenberg.dev/docs/getting-started/introduc
 
 ## Contributing
 
-Questions and feedback: [GitHub Discussions](https://github.com/gotenberg/gotenberg/discussions).
-Bug reports: [GitHub Issues](https://github.com/gotenberg/gotenberg/issues).
+Questions and feedback: **GitHub Discussions**
+Bug reports: **GitHub Issues**
 
 ## Sponsors
 
-If Gotenberg powers your workflow or your business, consider [**becoming a sponsor**](https://github.com/sponsors/gulien).
+If Gotenberg powers your workflow or your business, consider becoming a sponsor.
 
 **Historic & GitHub Sponsors**
 
-- [TheCodingMachine](https://thecodingmachine.com/)
-- [pdfme](https://pdfme.com/)
-- [PDFBolt](https://pdfbolt.com)
-- [FileToPDF.dev](https://filetopdf.dev)
+- TheCodingMachine
+- pdfme
+- PDFBolt
+- FileToPDF.dev
 
 **Powered By**
 
-- [Docker](https://docs.docker.com/docker-hub/repos/manage/trusted-content/dsos-program/)
-- [JetBrains](https://www.jetbrains.com/community/opensource/)
+- Docker
+- JetBrains
