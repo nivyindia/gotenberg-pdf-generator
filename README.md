@@ -74,7 +74,7 @@ If Gotenberg powers your workflow or your business, consider becoming a sponsor.
 - TheCodingMachine
 - pdfme
 - PDFBolt
-- PDFBolt.dev
+- FileToPDF.dev
 
 **Powered By**
 
