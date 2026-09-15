@@ -1,20 +1,19 @@
+## 📌 Nivy AIOS Work Status — Quick Resume
+
+- **Last updated:** 2026-09-16
+- **Role:** PDF/document infrastructure component supporting the broader AIOS ecosystem.
+- **Completed:** Repository-level autonomous execution guidance and persistent cross-session status tracking established.
+- **Exact completion %:** Not inferred from this component's upstream feature set.
+- **Where to start:** `AIOS-WORK-STATUS.md` → then `nivyindia/Nivy-Next-AIOS` canonical plan/tracker.
+
+**Detailed status:** [AIOS-WORK-STATUS.md](AIOS-WORK-STATUS.md)
+
+---
+
 <p align="center">
     <img src="https://raw.githubusercontent.com/gotenberg/art/master/logo.png" alt="Gotenberg Logo" width="150" height="150" />
     <h3 align="center">Gotenberg</h3>
     <p align="center">A Docker-based API for converting documents to PDF</p>
-    <p align="center">
-        <a href="https://hub.docker.com/r/gotenberg/gotenberg"><img alt="Total downloads (gotenberg/gotenberg)" src="https://img.shields.io/docker/pulls/gotenberg/gotenberg"></a>
-        <a href="https://github.com/gotenberg/gotenberg/actions/workflows/continuous-integration.yml"><img alt="Continuous Integration" src="https://github.com/gotenberg/gotenberg/actions/workflows/continuous-integration.yml/badge.svg"></a>
-        <a href="https://pkg.go.dev/github.com/gotenberg/gotenberg/v8"><img alt="Go Reference" src="https://pkg.go.dev/badge/github.com/gotenberg/gotenberg.svg"></a>
-    </p>
-    <p align="center">
-        <a href="https://trendshift.io/repositories/2996"><img src="https://trendshift.io/api/badge/repositories/2996" alt="gotenberg%2Fgotenberg | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-    </p>
-    <p align="center">
-        <a href="https://gotenberg.dev/docs/getting-started/introduction"><strong>Documentation</strong></a> &#183;
-        <a href="https://gotenberg.dev/docs/getting-started/installation#live-demo"><strong>Live Demo</strong></a> &#183;
-        <a href="https://github.com/gotenberg/gotenberg/discussions"><strong>Community</strong></a>
-    </p>
 </p>
 
 ---
@@ -32,10 +31,7 @@ docker run --rm -p 3000:3000 gotenberg/gotenberg:8
 Convert a URL to PDF:
 
 ```bash
-curl \
-  --request POST http://localhost:3000/forms/chromium/convert/url \
-  --form url=https://sparksuite.github.io/simple-html-invoice-template/ \
-  -o invoice.pdf
+curl --request POST http://localhost:3000/forms/chromium/convert/url --form url=https://sparksuite.github.io/simple-html-invoice-template/ -o invoice.pdf
 ```
 
 ## Features
