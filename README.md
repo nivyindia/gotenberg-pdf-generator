@@ -1,6 +1,18 @@
-> **UNIVERSAL START COMMAND:** Read `docs/REPO-CONTROL/00-MASTER-INSTRUCTIONS.md` and continue the work.
->
-> Give this exact instruction to ChatGPT/Codex/another AI agent after opening this repository. It is the repository's main work instruction. The agent must read the master instructions, discover the control pack and indexed sources, determine the highest-priority unfinished work, execute when permitted, verify it, update tracking/README, commit, and continue. If the control file is missing, search the repository for the equivalent control/instruction system before creating duplicates.
+> **`Repository: nivyindia/gotenberg-pdf-generator | Repository URL: https://github.com/nivyindia/gotenberg-pdf-generator | Branch: main | Branch URL: https://github.com/nivyindia/gotenberg-pdf-generator/tree/main — Read docs/REPO-CONTROL/00-MASTER-INSTRUCTIONS.md and start/continue the work.`**
+
+### ⚡ QUICK RESUME — ONE-GLANCE STATUS
+| Item | Current state |
+|---|---|
+| **Repository** | `nivyindia/gotenberg-pdf-generator` |
+| **Branch** | `main` |
+| **Start point** | `docs/REPO-CONTROL/00-MASTER-INSTRUCTIONS.md` |
+| **Current stage** | Component/control reconciliation |
+| **Status** | `IN PROGRESS` |
+| **Completed** | PDF/document infrastructure component and repository-level work-control/status guidance established |
+| **Remaining** | Verify local component state and continue highest-priority integration/support tasks |
+| **Current blocker** | None verified here |
+| **Exact %** | **Not calculated** — use verified implementation evidence |
+| **Next action** | Read master → source index → inspect component/task state → execute/verify |
 
 ## 📘 Repository Context — Read This First
 
@@ -11,14 +23,6 @@
 - **Implementation plan:** AIOS integration follows the canonical Nivy Next AIOS plan, tool/connector contracts and verification evidence.
 - **Progress rule:** Upstream feature completeness is not the same as Nivy AIOS integration completion.
 - **How to use this README:** Understand the component → check `WORK-STATUS.md` → inspect local deployment/integration → trace actual AIOS use to canonical evidence.
-
-## 📌 Nivy AIOS Work Status — Quick Resume
-
-- **Last updated:** 2026-09-16
-- **Role:** PDF/document infrastructure component supporting the broader AIOS ecosystem.
-- **Completed:** Repository-level autonomous execution guidance and persistent cross-session status tracking established.
-- **Exact completion %:** Not inferred from this component's upstream feature set.
-- **Where to start:** `WORK-STATUS.md` → then `nivyindia/Nivy-Next-AIOS` canonical plan/tracker.
 
 **Detailed status:** [WORK-STATUS.md](WORK-STATUS.md)
 
